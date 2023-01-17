@@ -10,7 +10,7 @@
 }
 
 .top-container{
-  background-image: url("images/Artboard 23@2x.png");
+  background-image: url("Images/Artboard 23@2x.png");
     /* background-color: #cccccc;*/
     background-position: center; 
     background-repeat: no-repeat;
@@ -19,7 +19,7 @@
   }
 
   .container2{
-    background-image: url("images/Artboard 17@2x.png");
+    background-image: url("Images/Artboard 17@2x.png");
       background-color: #cccccc;
       background-position: center;
       background-repeat: no-repeat;
@@ -27,7 +27,7 @@
   }
 
     .container3{
-      background-image: url("images/Artboard 19@2x.png");
+      background-image: url("Images/Artboard 19@2x.png");
         background-color: #cccccc;
         background-position: center;
         background-repeat: no-repeat;
