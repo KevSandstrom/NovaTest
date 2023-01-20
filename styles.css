@@ -1,49 +1,139 @@
-.navbar-scrolled{
-  background-color: black;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
-}
-
 .navbar {
   padding-top: 0;
   padding-bottom: 0;
-  transition: all 0.5s;
+  width: 100vw;
 }
 
+body {
+  overflow-x: hidden;
+}
+
+.nav-link:hover {
+  color: rgb(122, 201, 67);
+}
+
+.greenHover:hover {
+  color: rgb(122, 201, 67);
+  transform: scale(1.1);
+  transition: 100ms linear;
+}
+
+.active {
+  color: rgb(122, 201, 67)!important;
+}
+
+
 .top-container{
-  background-image: url("Images/Artboard 23@2x.png");
-    /* background-color: #cccccc;*/
+  background-image: url("images/Artboard 23_1@2x.png");
+    background-color: #cccccc;
     background-position: center; 
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 80px;
+    padding-bottom: 6vh;
+    padding-top: 20vh;
+  }
+
+  .TopContainer3{
+    background-color: gray;
+    padding-top: 5vh;
+    background-image: url("images/dark-deep-space-with-giant-planets-space.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 5vh;
   }
 
   .container2{
-    background-image: url("Images/Artboard 17@2x.png");
+    background-image: url("images/Artboard 17@2x.png");
       background-color: #cccccc;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom: 5vh;
   }
 
     .container3{
-      background-image: url("Images/Artboard 19@2x.png");
+      background-image: url("images/Artboard 19@2x.png");
         background-color: #cccccc;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
     }
 
-  body{
-    color: white;
-  }
 
-  h1{
+  .headings{
+    color: whitesmoke;
     text-align: center;
-    padding-bottom: 5%;
     font-family: 'Manrope', sans-serif;
+    font-size: 7vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    margin-bottom: 0;
+    font-weight: 700;
   }
 
-    .textA{
-      display: block;
+    .darkHeadings {
+      color: black;
+      text-align: center;
+      font-family: 'Manrope', sans-serif;
+      font-size: 7vh;
+      padding-top: 2vh;
+      padding-bottom: 2vh;
+      margin-bottom: 0;
+      font-weight: 700;
     }
+
+  .smallerHeadings{
+    padding-top: 2vh;
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    font-size: 5vh;
+    padding-bottom: 0;
+    font-weight: 700;
+  }
+
+  .TextBox{
+    border: 2px solid rgb(122, 201, 67);
+    border-radius: 25px;
+    background-color: rgba(39, 34, 34, 0.6);
+    box-shadow: 1vh 1vh 1vh 1vh rgba(0, 0, 0, 0.5);
+  }
+
+  .SubText{
+    text-align: center;
+    color:rgb(122, 201, 67) ;
+    padding-top: 0;
+    font-size: 4vh;
+  }
+
+    .SubTextWhite {
+      text-align: center;
+      vertical-align: middle;
+      color: rgb(255, 255, 255);
+      font-size: 3.5vh;
+      margin-bottom: 0;
+    }
+
+    .smallBox{
+      color: whitesmoke;
+      background-color: rgba(0, 0, 0, 0.8);
+      font-family: 'Manrope', sans-serif;
+      text-align: center;
+      font-size: 4vh;
+      padding-top: 4vh;
+    }
+
+    .smallBox2{
+      color: whitesmoke;
+      background-color: rgba(0, 0, 0, 0.4);
+      font-family: 'Manrope', sans-serif;
+      text-align: center;
+      font-size: 4vh;
+      padding-top: 4vh;
+    }
+    
+    .footer{
+      background-color:grey;
+    }
+
