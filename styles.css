@@ -24,7 +24,7 @@ body {
 
 
 .top-container{
-  background-image: url("images/Artboard 23_1@2x.png");
+  background-image: url("Images/Artboard 23_1@2x.png");
     background-color: #cccccc;
     background-position: center; 
     background-repeat: no-repeat;
@@ -36,7 +36,7 @@ body {
   .TopContainer3{
     background-color: gray;
     padding-top: 5vh;
-    background-image: url("images/dark-deep-space-with-giant-planets-space.jpg");
+    background-image: url("Images/dark-deep-space-with-giant-planets-space.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -44,7 +44,7 @@ body {
   }
 
   .container2{
-    background-image: url("images/Artboard 17@2x.png");
+    background-image: url("Images/Artboard 17@2x.png");
       background-color: #cccccc;
         background-position: center;
         background-repeat: no-repeat;
@@ -53,7 +53,7 @@ body {
   }
 
     .container3{
-      background-image: url("images/Artboard 19@2x.png");
+      background-image: url("Images/Artboard 19@2x.png");
         background-color: #cccccc;
         background-position: center;
         background-repeat: no-repeat;
