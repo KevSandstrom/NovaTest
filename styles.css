@@ -2,14 +2,34 @@
   padding-top: 0;
   padding-bottom: 0;
   width: 100vw;
+  font-family: 'Manrope', sans-serif;
+}
+
+.nbBg {
+  background-color: rgba(0, 0, 0, 0.95);
+  box-shadow: 0.6vh 0.6vh 0.6vh 0.6vh rgba(5, 3, 3, 0.5);
+}
+
+.navbar-nav>li {
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 body {
   overflow-x: hidden;
 }
 
-.nav-link:hover {
+/* .nav-link:hover {
   color: rgb(122, 201, 67);
+  transform: scale(1.1);
+  transition: 100ms linear;
+} */
+
+.nav-link{
+  font-size: 1.1rem;
+  /* border: 2px solid rgb(122, 201, 67); */
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .greenHover:hover {
@@ -19,7 +39,13 @@ body {
 }
 
 .active {
-  color: rgb(122, 201, 67)!important;
+  color: rgb(255, 255, 255)!important;
+  /* background-color: rgba(122, 255, 144, 0.5); */
+  /* border: 1px solid rgb(245, 245, 245);
+  border-radius: 10px;  */
+  /* padding: 0.4vh; */
+  /* text-shadow: 1px 1px #ffffff; */
+  /* box-shadow: 0.2vh 0.2vh 0.2vh 0.2vh rgba(255, 255, 255, 0.5); */
 }
 
 
@@ -36,7 +62,7 @@ body {
   .TopContainer3{
     background-color: gray;
     padding-top: 5vh;
-    background-image: url("Images/dark-deep-space-with-giant-planets-space.jpg");
+    background-image: url("Images/3416667.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -53,7 +79,7 @@ body {
   }
 
     .container3{
-      background-image: url("Images/Artboard 19@2x.png");
+      background-image: url("Images/3416659.jpg");
         background-color: #cccccc;
         background-position: center;
         background-repeat: no-repeat;
@@ -83,9 +109,9 @@ body {
   }
 
   .TextBox{
-    border: 2px solid rgb(122, 201, 67);
+    border: 1.5px solid rgb(255, 255, 255);
     border-radius: 25px;
-    background-color: rgba(39, 34, 34, 0.6);
+    background-color: rgba(0, 0, 0, 0.6);
     box-shadow: 1vh 1vh 1vh 1vh rgba(0, 0, 0, 0.5);
   }
 
@@ -93,7 +119,7 @@ body {
     text-align: center;
     color:rgb(122, 201, 67) ;
     padding-top: 0;
-    font-size: clamp(1rem, 2vw, 2rem);
+    font-size: clamp(1.2rem, 2vw, 2rem);
   }
 
     .SubTextWhite {
@@ -115,7 +141,7 @@ body {
 
     .smallBox2{
       color: whitesmoke;
-      background-color: rgba(0, 0, 0, 0.4);
+      background-color: rgba(0, 0, 0, 0.6);
       font-family: 'Manrope', sans-serif;
       text-align: center;
       font-size: clamp(1.5rem, 4vw, 3rem);;
@@ -125,4 +151,177 @@ body {
     .footer{
       background-color:grey;
     }
+
+    #firstHeading{
+      position: relative;
+      animation: moveLeft 2s;
+      animation-timing-function: ease;
+      animation-delay: 0.3s;
+      animation-fill-mode: both;
+    }
+
+    @keyframes moveLeft {
+      from {
+          right: -600px;
+          visibility: hidden;
+        }
+      
+        to {
+          right: 0;
+          visibility: visible;
+        }
+    }
+
+    #secondHeading {
+      position: relative;
+      animation: moveRight 2s;
+      animation-timing-function: ease;
+      animation-delay: 0.3s;
+      animation-fill-mode: both;
+    }
+
+      @keyframes moveRight {
+      from {
+        left: -600px;
+      visibility: hidden;
+    }
+      to {
+        left: 0;
+        visibility: visible;
+      }
+    }
+
+    #BWN{
+      position: relative;
+      animation: moveRight 2s;
+      animation-timing-function: ease;
+      animation-delay: 0.2s;
+      animation-fill-mode: both;
+    }
+
+      .reveal {
+        position: relative;
+        transform: translateY(150px);
+        opacity: 0;
+        transition: 0.5s all ease;
+      }
+
+      .reveal.active1 {
+        transform: translateY(0);
+        opacity: 1;
+      }
+
+      @keyframes bright {
+        0% {
+          filter: brightness(1);
+          filter: contrast(1);
+          -webkit-filter: brightness(1);
+          -webkit-filter: contrast(1);
+        }
+
+        50% {
+          filter: brightness(0.2);
+          filter: contrast(0.2);
+          -webkit-filter: brightness(0.2);
+          -webkit-filter: contrast(0.2);
+        }
+
+        100% {
+          filter: brightness(1);
+          filter: contrast(1);
+          -webkit-filter: brightness(1);
+          -webkit-filter: contrast(1);
+        }
+      }
+
+      .brighty{
+        animation-name: bright;
+        animation-duration: 1.4s;
+        animation-iteration-count: infinite;
+
+      }
+
+
+      /* ABOUT US PAGE */
+
+      .content1{
+        background-image: url(Images/education-concept-student-studying-brainstorming-campus-concept-close-up-students-discussing-their-subject-books-textbooks-selective-focus.jpg);
+      }
+
+
+      /* CONTACT US PAGE */
+
+    .bgCu {
+      background-image: url(Images/3416659.jpg);
+      background-color: #cccccc;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom: 6vh;
+        padding-top: 15vh;
+    }
+
+    .CuHeadings{
+      color: whitesmoke;
+      font-family: 'Manrope', sans-serif;
+      font-size: clamp(1.3rem, 2.2vw, 2.2rem);
+      padding-top: 2vh;
+      padding-bottom: 2vh;
+      margin-bottom: 0;
+      font-weight: 700;
+      text-align: center;
+    }
+
+    .CuHeadins1{
+      color: whitesmoke;
+      font-family: 'Manrope', sans-serif;
+      font-size: clamp(2.3rem, 3vw, 3.3rem);
+      padding-top: 2vh;
+      padding-bottom: 2vh;
+      margin-bottom: 0;
+      font-weight: 700;
+      text-align: center;
+    }
+
+    
+    
+        .gradient-border {
+          --border-width: 2px;
+          position: relative;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background: rgb(0, 0, 0);
+          border-radius: 14px;
+          }
+    
+         .gradient-border::after {
+            position: absolute;
+            content: "";
+            top: calc(-1* var(--border-width));
+            left: calc(-1* var(--border-width));
+            z-index: -1;
+            width: calc(100% + var(--border-width) * 2);
+            height: calc(100% + var(--border-width) * 2);
+            background: linear-gradient(60deg,
+                hsl(0, 0%, 100%),
+                hsl(128, 90%, 32%),
+                hsl(0, 0%, 100%),
+                hsl(123, 85%, 66%),
+                hsl(0, 0%, 100%),
+                hsl(89, 85%, 66%),
+                hsl(0, 0%, 100%),
+                hsl(118, 80%, 37%));
+            background-size: 300% 300%;
+            background-position: 0 50%;
+            border-radius: 14px;
+            animation: moveGradient 6s alternate infinite;
+          }
+        
+    
+        @keyframes moveGradient {
+          50% {
+            background-position: 100% 50%;
+          }
+        }
 
