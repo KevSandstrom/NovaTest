@@ -7,7 +7,7 @@
 
 .nbBg {
   background-color: rgba(0, 0, 0, 0.95);
-  box-shadow: 0.6vh 0.6vh 0.6vh 0.6vh rgba(5, 3, 3, 0.5);
+  /* box-shadow: 0.6vh 0.6vh 0.6vh 0 rgba(5, 3, 3, 0.5); */
 }
 
 .navbar-nav>li {
@@ -41,11 +41,11 @@ body {
 .active {
   color: rgb(255, 255, 255)!important;
   /* background-color: rgba(122, 255, 144, 0.5); */
-  /* border: 1px solid rgb(245, 245, 245);
-  border-radius: 10px;  */
-  /* padding: 0.4vh; */
-  /* text-shadow: 1px 1px #ffffff; */
-  /* box-shadow: 0.2vh 0.2vh 0.2vh 0.2vh rgba(255, 255, 255, 0.5); */
+  border: 1px solid rgb(122, 201, 67);
+  border-radius: 10px; 
+  padding: 0.4vh;
+  text-shadow: 0.15vh 0.15vh rgba(0, 0, 0, 0.8);
+  box-shadow: 0.3vh 0.3vh 0.3vh 0.3vh rgba(0, 0, 0, 0.5);
 }
 
 
@@ -62,7 +62,7 @@ body {
   .TopContainer3{
     background-color: gray;
     padding-top: 5vh;
-    background-image: url("Images/3416667.jpg");
+    background-image: url("Images/3416659.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -115,6 +115,13 @@ body {
     box-shadow: 1vh 1vh 1vh 1vh rgba(0, 0, 0, 0.5);
   }
 
+  .RevealTextBox{
+    border: 1.5px solid rgb(255, 255, 255);
+      border-radius: 12px;
+      background-color: rgba(0, 0, 0, 0.6);
+      box-shadow: 0.15vh 0.15vh 0.15vh 0.15vh rgba(136, 132, 132, 0.5);
+  }
+
   .SubText{
     text-align: center;
     color:rgb(122, 201, 67) ;
@@ -154,9 +161,9 @@ body {
 
     #firstHeading{
       position: relative;
-      animation: moveLeft 2s;
+      animation: moveLeft 1.2s;
       animation-timing-function: ease;
-      animation-delay: 0.3s;
+      animation-delay: 0s;
       animation-fill-mode: both;
     }
 
@@ -174,9 +181,9 @@ body {
 
     #secondHeading {
       position: relative;
-      animation: moveRight 2s;
+      animation: moveRight 1.2s;
       animation-timing-function: ease;
-      animation-delay: 0.3s;
+      animation-delay: 0s;
       animation-fill-mode: both;
     }
 
@@ -193,9 +200,9 @@ body {
 
     #BWN{
       position: relative;
-      animation: moveRight 2s;
+      animation: moveRight 1.2s;
       animation-timing-function: ease;
-      animation-delay: 0.2s;
+      animation-delay: 0s;
       animation-fill-mode: both;
     }
 
@@ -220,8 +227,8 @@ body {
         }
 
         50% {
-          filter: brightness(0.2);
-          filter: contrast(0.2);
+          filter: brightness(0.1);
+          filter: contrast(0.1);
           -webkit-filter: brightness(0.2);
           -webkit-filter: contrast(0.2);
         }
@@ -245,20 +252,47 @@ body {
       /* ABOUT US PAGE */
 
       .content1{
-        background-image: url(Images/education-concept-student-studying-brainstorming-campus-concept-close-up-students-discussing-their-subject-books-textbooks-selective-focus.jpg);
+        background-image: url("Images/3416659.jpg");
+        background-color: #cccccc;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom: 6vh;
+        padding-top: 6vh;
+      }
+
+      .AUTopContainer{
+        background-image: url("Images/image-outer-space-mixed-media-elements-image-furnished-by-nasa.jpg");
+        background-color: #cccccc;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom: 6vh;
+        padding-top: 15vh;
+      }
+
+      .AUQuote{
+        padding-top: 2vh;
+        color: whitesmoke;
+        text-align: center;
+        font-family: 'Manrope', sans-serif;
+        font-size: clamp(1.2rem, 3.1vw, 3.1rem);
+        padding-bottom: 0;
+        font-weight: 700;
+        line-height: clamp(2.5rem, 3.9vw, 3.9rem);
       }
 
 
       /* CONTACT US PAGE */
 
     .bgCu {
-      background-image: url(Images/3416659.jpg);
+      background-image: url("Images/Artboard 101@2x.png");
       background-color: #cccccc;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        padding-bottom: 6vh;
-        padding-top: 15vh;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding-bottom: 6vh;
+      padding-top: 15vh;
     }
 
     .CuHeadings{
@@ -293,6 +327,7 @@ body {
           align-items: center;
           background: rgb(0, 0, 0);
           border-radius: 14px;
+          color: rgb(255, 255, 255) !important;
           }
     
          .gradient-border::after {
@@ -325,3 +360,61 @@ body {
           }
         }
 
+/* Pricing */
+
+.PricingBg{
+        background-color: gray;
+        padding-top: 5vh;
+        background-image: url("Images/pencil-pot-books-desk-math-class.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom: 5vh;
+      }
+
+  .PricingTopContainer{
+    /* margin-top: 800px; */
+    /* background-image: url("Images/pencil-pot-books-desk-math-class.jpg"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 5vh;
+    border-radius: 3vh;
+  }
+
+  .PricingTextBox{
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 25px;
+    background-color: rgba(42, 48, 42, 0.8);
+    box-shadow: 0.7vh 0.7vh 0.7vh 0.7vh rgba(0, 0, 0, 0.5);
+  }
+
+  .PricingHeadings{
+    padding-top: 2vh;
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    font-size: clamp(1.9rem, 2.6vw, 2.6rem);
+    padding-bottom: 0;
+    font-weight: 700;
+  }
+
+    .PricingBigHeadings {
+      padding-top: 2vh;
+      color: whitesmoke;
+      text-align: center;
+      font-family: 'Manrope', sans-serif;
+      font-size: clamp(3.5rem, 5vw, 5rem);
+      padding-bottom: 0;
+      font-weight: 700;
+    }
+
+    .PSubTextWhite{
+      text-align: center;
+      vertical-align: middle;
+      color: rgb(255, 255, 255);
+      font-size: clamp(1.5rem, 2vw, 2rem);
+      margin-bottom: 0;
+    }
+
+      
