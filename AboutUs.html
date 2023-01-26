@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
 
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
   <title>NOVA Maths Mentors</title>
   <link rel="icon" href="favicon.ico">
@@ -16,56 +17,159 @@
 
 <body>
 
-  <nav class="navbar navbar-dark fixed-top navbar-expand-sm">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="index.html"><img height="60px" src="images/logo3.png" alt="Logo"></a>
-
+  <nav class="navbar navbar-dark fixed-top navbar-expand-lg nbBg">
+    <div class="container-fluid navbar-inner">
+      <a class="navbar-brand" href="index.html"><img height="60px" src="Images/logo3.png" alt="Logo"></a>
+  
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-
+  
       <div class="collapse navbar-collapse " id="navbarNav">
-        <ul class="navbar-nav mx-auto">
+        <ul class="navbar-nav" style="padding-left: 50px; padding-right: 50px;">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link greenHover" aria-current="page" href="index.html"><i
+                class="fa-solid fa-house"></i><span style="padding-left: 8px;">Home</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="AboutUs.html">About Us</a>
+            <a class="nav-link gradient-border" href="AboutUs.html"><i class="fa-solid fa-magnifying-glass"></i><span
+                style="padding-left: 8px;">About Us</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="ContactUs.html">Contact Us</a>
+            <a class="nav-link greenHover" href="ContactUs.html"><i class="fa-solid fa-phone"></i><span
+                style="padding-left: 8px;">Contact Us</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="Pricing.html">Pricing</i></a>
+            <a class="nav-link greenHover" href="Pricing.html"><i class="fa-solid fa-coins"></i><span
+                style="padding-left: 8px;">Pricing</span></a>
           </li>
         </ul>
       </div>
-
-
-
+  
     </div>
   </nav>
 
-  <div class="top-container">
+  <div class="AUTopContainer">
 
-    <img class="topImage" src="images/Artboard 28.png" alt="Logo">
+  <div class="row align-items-center justify-content-center">
 
-    <h1>We drive to you for at home lessons.</h1>
+      <div class="col-8 col-md-4">
+        <img src="Images/Artboard 223@2x.png" alt="" class="img-fluid">
+      </div>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+      <div class="col-md-1"></div>
 
-  <script>
-    const navEl = document.querySelector('.navbar');
+      <div class="col-10 col-md-6 TextBox">
+        <h1 class="AUQuote">“You have to spend some energy and effort to see the beauty of math” - Maryam Mirzakhani</h1>
+      </div>
 
-    window.addEventListener('scroll', () => {
-      if (window.scrollY >= 60) {
-        navEl.classList.add('navbar-scrolled');
-      } else if (window.scrollY < 60) {
-        navEl.classList.remove('navbar-scrolled');
-      }
-    });
-  </script>
+    </div>
+  </div>
+
+  <div class="content1">
+
+<div class="row align-items-center justify-content-center">
+
+  <div class="col-md-1"></div>
+
+  <div class="col-10 col-md-7 TextBox" style="padding-bottom: 6vh;">
+    <h3 class="smallerHeadings">Nova Maths Mentors</h3>
+    <br>
+    <p class="SubTextWhite">Nova Maths Mentors was founded by an accomplished tutor who believed in providing a better
+      service to his students.
+      It was observed that students will often feel confused in class due to the high pace of teaching or the
+      uncomfortability of asking questions.
+      <br>
+      <br>
+      Our goal is to provide students with a comfortable learning environment where the pace of the lesson is adjusted
+      for them to reach the
+      best possible understanding of the Mathematics at hand. Nova's tutors also believe in the students abilities and
+      motivate them to work harder,
+      this builds up the students' confidence within Mathematics and allows them to start enjoying the subject.
+      <br>
+      <br>
+      Our tutors have no other commitments and can provide you with all year round attention, especially during exam time.
+      Our vision is to assist every student with reaching their full Mathamatical capability and see Mathematics for the
+      truly beautiful
+      language it really is.
+    </p>
+    
+  </div>
+  <div class="col-5 col-md-3" style="padding-top: 6vh;">
+    <img src="Images/Artboard 3@2x.png" alt="" class="img-fluid">
+  </div>
+  
+</div>
+    
+  </div>
+
+    <footer class="footer">
+    
+      <div class="row align-items-center justify-content-center" style="margin: 0;">
+    
+        <div class="col-7 col-md-2">
+          <a href="#"><img src="Images/BigWhiteNova.png" alt="" class="img-fluid"></a>
+        </div>
+    
+        <div class="col-7 col-md-1" style="padding: 2vh 0;">
+          <a href="index.html" style="text-decoration: none;">
+            <p class="SubTextWhite greenHover"><i class="fa-solid fa-house"></i><br><span style="padding-left: 5px;">Home</span>
+            </p>
+          </a>
+        </div>
+    
+        <div class="col-7 col-md-2" style="padding: 2vh 0;">
+          <a href="AboutUs.html" style="text-decoration: none;">
+            <p class="SubTextWhite active"><i class="fa-solid fa-magnifying-glass"></i><br><span
+                style="padding-left: 5px;">About Us</span></p>
+          </a>
+        </div>
+    
+        <div class="col-7 col-md-2" style="padding: 2vh 0;">
+          <a href="ContactUs.html" style="text-decoration: none;">
+            <p class="SubTextWhite greenHover"><i class="fa-solid fa-phone"></i><br><span style="padding-left: 5px;">Contact
+                Us</span></p>
+          </a>
+        </div>
+    
+        <div class="col-7 col-md-1" style="padding: 2vh 0;">
+          <a href="Pricing.html" style="text-decoration: none;">
+            <p class="SubTextWhite greenHover"><i class="fa-solid fa-coins"></i><br><span
+                style="padding-left: 5px;">Pricing</span></p>
+          </a>
+        </div>
+    
+        <div class="col-7 col-md-2" style="padding: 2vh 0;">
+          <a href="https://www.facebook.com/NovaMathsMentors/" style="text-decoration: none;">
+            <p class="SubTextWhite greenHover"><i class="fa fa-facebook" aria-hidden="true"></i><br> Facebook</p>
+          </a>
+        </div>
+    
+        <div class="col-7 col-md-1" style="padding: 2vh 0;">
+          <a href="https://www.instagram.com/novamathsmentors/" style="text-decoration: none;">
+            <p class="SubTextWhite greenHover"><i class="fa fa-instagram" aria-hidden="true"></i><br> Instagram</p>
+          </a>
+        </div>
+    
+      </div>
+    
+      <hr>
+    
+      <p class="SubTextWhite align-items-center justify-content-center"
+        style="text-align: center; padding-bottom: 3vh; margin: 0;">
+        Nova Maths Mentors established 2022 | <a style="text-decoration: none; color: white;" href="tel:+2765858496"><i
+            class="fa fa-phone" aria-hidden="true"></i> 065 858 4965</a>
+      </p>
+    
+    
+    </footer>
+
 </body>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
 
 </html>
